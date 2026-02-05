@@ -1,0 +1,761 @@
+{
+  "Atlanta, GA": {
+    "neighbors": [
+      {"name": "Birmingham, AL", "distance": 147},
+      {"name": "Chattanooga, TN", "distance": 118},
+      {"name": "Columbia, SC", "distance": 215},
+      {"name": "Greenville, SC", "distance": 145},
+      {"name": "Macon, GA", "distance": 84},
+      {"name": "Montgomery, AL", "distance": 161}
+    ]
+  },
+  "Greenville, SC": {
+    "neighbors": [
+      {"name": "Atlanta, GA", "distance": 145},
+      {"name": "Spartanburg, SC", "distance": 32}
+    ]
+  },
+  "Spartanburg, SC": {
+    "neighbors": [
+      {"name": "Charlotte, NC", "distance": 75},
+      {"name": "Columbia, SC", "distance": 93},
+      {"name": "Greenville, SC", "distance": 32},
+      {"name": "Knoxville, TN", "distance": 175}
+    ]
+  },
+  "Columbia, SC": {
+    "neighbors": [
+      {"name": "Atlanta, GA", "distance": 215},
+      {"name": "Spartanburg, SC", "distance": 93},
+      {"name": "Florence, SC", "distance": 83},
+      {"name": "Charlotte, NC", "distance": 93},
+      {"name": "St. George, SC", "distance": 77}
+    ]
+  },
+  "St. George, SC": {
+    "neighbors": [
+      {"name": "Charleston, SC", "distance": 52},
+      {"name": "Columbia, SC", "distance": 77},
+      {"name": "Florence, SC", "distance": 83},
+      {"name": "Savannah, GA", "distance": 90}
+    ]
+  },
+  "Charleston, SC": {
+    "neighbors": [
+      {"name": "St. George, SC", "distance": 52}
+    ]
+  },
+  "Savannah, GA": {
+    "neighbors": [
+      {"name": "Jacksonville, FL", "distance": 139},
+      {"name": "Macon, GA", "distance": 166},
+      {"name": "St. George, SC", "distance": 90}
+    ]
+  },
+  "Macon, GA": {
+    "neighbors": [
+      {"name": "Atlanta, GA", "distance": 84},
+      {"name": "Lakeland, FL", "distance": 311},
+      {"name": "Savannah, GA", "distance": 166}
+    ]
+  },
+  "Florence, SC": {
+    "neighbors": [
+      {"name": "Columbia, SC", "distance": 83},
+      {"name": "St. George, SC", "distance": 83},
+      {"name": "Raleigh, NC", "distance": 148}
+    ]
+  },
+  "Charlotte, NC": {
+    "neighbors": [
+      {"name": "Columbia, SC", "distance": 93},
+      {"name": "Raleigh, NC", "distance": 167},
+      {"name": "Roanoke, VA", "distance": 198},
+      {"name": "Spartanburg, SC", "distance": 75}
+    ]
+  },
+  "Raleigh, NC": {
+    "neighbors": [
+      {"name": "Charlotte, NC", "distance": 167},
+      {"name": "Richmond, VA", "distance": 170},
+      {"name": "Wilmington, NC", "distance": 129}
+    ]
+  },
+  "Wilmington, NC": {
+    "neighbors": [
+      {"name": "Raleigh, NC", "distance": 129}
+    ]
+  },
+  "Lakeland, FL": {
+    "neighbors": [
+      {"name": "Jacksonville, FL", "distance": 183},
+      {"name": "Macon, GA", "distance": 311},
+      {"name": "Tallahassee, FL", "distance": 250},
+      {"name": "Tampa, FL", "distance": 35}
+    ]
+  },
+  "Jacksonville, FL": {
+    "neighbors": [
+      {"name": "Daytona Beach, FL", "distance": 92},
+      {"name": "Lakeland, FL", "distance": 183},
+      {"name": "Savannah, GA", "distance": 139}
+    ]
+  },
+  "Daytona Beach, FL": {
+    "neighbors": [
+      {"name": "Jacksonville, FL", "distance": 92},
+      {"name": "Orlando, FL", "distance": 57},
+      {"name": "Miami, FL", "distance": 267}
+    ]
+  },
+  "Miami, FL": {
+    "neighbors": [
+      {"name": "Ft. Myers, FL", "distance": 160},
+      {"name": "Jacksonville, FL", "distance": 350}
+    ]
+  },
+  "Ft. Myers, FL": {
+    "neighbors": [
+      {"name": "Miami, FL", "distance": 160},
+      {"name": "Tampa, FL", "distance": 127}
+    ]
+  },
+  "Tampa, FL": {
+    "neighbors": [
+      {"name": "Ft. Myers, FL", "distance": 127},
+      {"name": "Lakeland, FL", "distance": 35},
+      {"name": "Orlando, FL", "distance": 84}
+    ]
+  },
+  "Orlando, FL": {
+    "neighbors": [
+      {"name": "Daytona Beach, FL", "distance": 57},
+      {"name": "Tampa, FL", "distance": 84}
+    ]
+  },
+  "Tallahassee, FL": {
+    "neighbors": [
+      {"name": "Lakeland, FL", "distance": 250},
+      {"name": "Mobile, AL", "distance": 243}
+    ]
+  },
+  "Mobile, AL": {
+    "neighbors": [
+      {"name": "Montgomery, AL", "distance": 169},
+      {"name": "New Orleans, LA", "distance": 144},
+      {"name": "Tallahassee, FL", "distance": 243}
+    ]
+  },
+  "New Orleans, LA": {
+    "neighbors": [
+      {"name": "Jackson, MS", "distance": 186},
+      {"name": "Lafayette, LA", "distance": 135},
+      {"name": "Mobile, AL", "distance": 144}
+    ]
+  },
+  "Montgomery, AL": {
+    "neighbors": [
+      {"name": "Atlanta, GA", "distance": 161},
+      {"name": "Birmingham, AL", "distance": 91},
+      {"name": "Mobile, AL", "distance": 169}
+    ]
+  },
+  "Birmingham, AL": {
+    "neighbors": [
+      {"name": "Atlanta, GA", "distance": 147},
+      {"name": "Chattanooga, TN", "distance": 148},
+      {"name": "Jackson, MS", "distance": 237},
+      {"name": "Mobile, AL", "distance": 169},
+      {"name": "Montgomery, AL", "distance": 91}
+    ]
+  },
+  "Chattanooga, TN": {
+    "neighbors": [
+      {"name": "Atlanta, GA", "distance": 118},
+      {"name": "Birmingham, AL", "distance": 148},
+      {"name": "Knoxville, TN", "distance": 112},
+      {"name": "Nashville, TN", "distance": 134}
+    ]
+  },
+  "Knoxville, TN": {
+    "neighbors": [
+      {"name": "Chattanooga, TN", "distance": 112},
+      {"name": "Lexington, KY", "distance": 173},
+      {"name": "Nashville, TN", "distance": 180},
+      {"name": "Roanoke, VA", "distance": 260},
+      {"name": "Spartanburg, SC", "distance": 175}
+    ]
+  },
+  "Jackson, MS": {
+    "neighbors": [
+      {"name": "Birmingham, AL", "distance": 237},
+      {"name": "Memphis, TN", "distance": 210},
+      {"name": "New Orleans, LA", "distance": 186},
+      {"name": "Shreveport, LA", "distance": 218}
+    ]
+  },
+  "Memphis, TN": {
+    "neighbors": [
+      {"name": "Jackson, MS", "distance": 210},
+      {"name": "Little Rock, AR", "distance": 111},
+      {"name": "Nashville, TN", "distance": 212},
+      {"name": "St. Louis, MO", "distance": 283}
+    ]
+  },
+  "Nashville, TN": {
+    "neighbors": [
+      {"name": "Birmingham, AL", "distance": 191},
+      {"name": "Chattanooga, TN", "distance": 134},
+      {"name": "Memphis, TN", "distance": 212},
+      {"name": "Louisville, KY", "distance": 175},
+      {"name": "St. Louis, MO", "distance": 309},
+      {"name": "Knoxville, TN", "distance": 180}
+    ]
+  },
+  "Roanoke, VA": {
+    "neighbors": [
+      {"name": "Charleston, WV", "distance": 180},
+      {"name": "Charlotte, NC", "distance": 198},
+      {"name": "Knoxville, TN", "distance": 260},
+      {"name": "Richmond, VA", "distance": 189}
+    ]
+  },
+  "Richmond, VA": {
+    "neighbors": [
+      {"name": "Charleston, WV", "distance": 317},
+      {"name": "Raleigh, NC", "distance": 170},
+      {"name": "Roanoke, VA", "distance": 189},
+      {"name": "Washington, D.C.", "distance": 109}
+    ]
+  },
+  "Lexington, KY": {
+    "neighbors": [
+      {"name": "Charleston, WV", "distance": 176},
+      {"name": "Cincinnati, OH", "distance": 84},
+      {"name": "Louisville, KY", "distance": 75},
+      {"name": "Knoxville, TN", "distance": 175}
+    ]
+  },
+  "Charleston, WV": {
+    "neighbors": [
+      {"name": "Columbus, OH", "distance": 163},
+      {"name": "Pittsburgh, PA", "distance": 217},
+      {"name": "Lexington, KY", "distance": 176},
+      {"name": "Richmond, VA", "distance": 317},
+      {"name": "Roanoke, VA", "distance": 180}
+    ]
+  },
+  "Cincinnati, OH": {
+    "neighbors": [
+      {"name": "Columbus, OH", "distance": 107},
+      {"name": "Dayton, OH", "distance": 54},
+      {"name": "Lexington, KY", "distance": 84},
+      {"name": "Louisville, KY", "distance": 100}
+    ]
+  },
+  "Louisville, KY": {
+    "neighbors": [
+      {"name": "Cincinnati, OH", "distance": 100},
+      {"name": "Indianapolis, IN", "distance": 115},
+      {"name": "Lexington, KY", "distance": 75},
+      {"name": "Nashville, TN", "distance": 175},
+      {"name": "St. Louis, MO", "distance": 260}
+    ]
+  },
+  "Indianapolis, IN": {
+    "neighbors": [
+      {"name": "Chicago, IL", "distance": 183},
+      {"name": "Dayton, OH", "distance": 117},
+      {"name": "Louisville, KY", "distance": 115},
+      {"name": "St. Louis, MO", "distance": 243}
+    ]
+  },
+  "Chicago, IL": {
+    "neighbors": [
+      {"name": "Des Moines, IA", "distance": 333},
+      {"name": "Indianapolis, IN", "distance": 183},
+      {"name": "Milwaukee, WI", "distance": 91},
+      {"name": "St. Louis, MO", "distance": 297},
+      {"name": "Toledo, OH", "distance": 245}
+    ]
+  },
+  "Detroit, MI": {
+    "neighbors": [
+      {"name": "Toledo, OH", "distance": 57}
+    ]
+  },
+  "Toledo, OH": {
+    "neighbors": [
+      {"name": "Chicago, IL", "distance": 245},
+      {"name": "Detroit, MI", "distance": 57},
+      {"name": "Dayton, OH", "distance": 150},
+      {"name": "Cleveland, OH", "distance": 114}
+    ]
+  },
+  "St. Louis, MO": {
+    "neighbors": [
+      {"name": "Chicago, IL", "distance": 297},
+      {"name": "Indianapolis, IN", "distance": 243},
+      {"name": "Kansas City, MO", "distance": 248},
+      {"name": "Louisville, KY", "distance": 260},
+      {"name": "Memphis, TN", "distance": 283},
+      {"name": "Nashville, TN", "distance": 309},
+      {"name": "Springfield, MO", "distance": 216}
+    ]
+  },
+  "Dayton, OH": {
+    "neighbors": [
+      {"name": "Cincinnati, OH", "distance": 54},
+      {"name": "Columbus, OH", "distance": 70},
+      {"name": "Indianapolis, IN", "distance": 117},
+      {"name": "Toledo, OH", "distance": 150}
+    ]
+  },
+  "Columbus, OH": {
+    "neighbors": [
+      {"name": "Cleveland, OH", "distance": 149},
+      {"name": "Dayton, OH", "distance": 70},
+      {"name": "Pittsburgh, PA", "distance": 185},
+      {"name": "Cincinnati, OH", "distance": 107}
+    ]
+  },
+  "Cleveland, OH": {
+    "neighbors": [
+      {"name": "Erie, PA", "distance": 103},
+      {"name": "Columbus, OH", "distance": 149},
+      {"name": "Pittsburgh, PA", "distance": 134},
+      {"name": "Toledo, OH", "distance": 114}
+    ]
+  },
+  "Pittsburgh, PA": {
+    "neighbors": [
+      {"name": "Charleston, WV", "distance": 217},
+      {"name": "Cleveland, OH", "distance": 134},
+      {"name": "Columbus, OH", "distance": 185},
+      {"name": "Harrisburg, PA", "distance": 203},
+      {"name": "Washington, D.C.", "distance": 241}
+    ]
+  },
+  "Washington, D.C.": {
+    "neighbors": [
+      {"name": "Baltimore, MD", "distance": 38},
+      {"name": "Pittsburgh, PA", "distance": 241},
+      {"name": "Richmond, VA", "distance": 109}
+    ]
+  },
+  "Augusta, ME": {
+    "neighbors": [
+      {"name": "Portland, ME", "distance": 56}
+    ]
+  },
+  "Portland, ME": {
+    "neighbors": [
+      {"name": "Augusta, ME", "distance": 56},
+      {"name": "Boston, MA", "distance": 107}
+    ]
+  },
+  "Plattsburgh, NY": {
+    "neighbors": [
+      {"name": "Albany, NY", "distance": 161}
+    ]
+  },
+  "Albany, NY": {
+    "neighbors": [
+      {"name": "Boston, MA", "distance": 169},
+      {"name": "New York, NY", "distance": 158},
+      {"name": "Plattsburgh, NY", "distance": 161},
+      {"name": "Springfield, MA", "distance": 87},
+      {"name": "Syracuse, NY", "distance": 147}
+    ]
+  },
+  "Boston, MA": {
+    "neighbors": [
+      {"name": "Albany, NY", "distance": 169},
+      {"name": "Portland, ME", "distance": 107},
+      {"name": "Providence, RI", "distance": 58},
+      {"name": "Springfield, MA", "distance": 91}
+    ]
+  },
+  "Springfield, MA": {
+    "neighbors": [
+      {"name": "Albany, NY", "distance": 87},
+      {"name": "Boston, MA", "distance": 91},
+      {"name": "New Haven, CT", "distance": 64},
+      {"name": "Providence, RI", "distance": 86}
+    ]
+  },
+  "Allentown, PA": {
+    "neighbors": [
+      {"name": "Buffalo, NY", "distance": 332},
+      {"name": "Cleveland, OH", "distance": 392},
+      {"name": "Erie, PA", "distance": 372},
+      {"name": "Harrisburg, PA", "distance": 83},      
+      {"name": "New York, NY", "distance": 93},
+      {"name": "Philadelphia, PA", "distance": 63},
+      {"name": "Syracuse, NY", "distance": 205}
+    ]
+  },
+  "Syracuse, NY": {
+    "neighbors": [
+      {"name": "Albany, NY", "distance": 147},
+      {"name": "Allentown, PA", "distance": 205},
+      {"name": "Buffalo, NY", "distance": 154}
+    ]
+  },
+  "Buffalo, NY": {
+    "neighbors": [
+      {"name": "Allentown, PA", "distance": 332},
+      {"name": "Erie, PA", "distance": 92},
+      {"name": "Syracuse, NY", "distance": 332}
+    ]
+  },
+  "Erie, PA": {
+    "neighbors": [
+      {"name": "Allentown, PA", "distance": 372},
+      {"name": "Buffalo, NY", "distance": 92},
+      {"name": "Cleveland, OH", "distance": 103}
+    ]
+  },
+  "Providence, RI": {
+    "neighbors": [
+      {"name": "Boston, MA", "distance": 58},
+      {"name": "New Haven, CT", "distance": 103},
+      {"name": "Springfield, MA", "distance": 64}
+    ]
+  },
+  "New Haven, CT": {
+    "neighbors": [
+      {"name": "New York, NY", "distance": 81},
+      {"name": "Providence, RI", "distance": 103},
+      {"name": "Springfield, MA", "distance": 64}
+    ]
+  },
+  "Baltimore, MD": {
+    "neighbors": [
+      {"name": "Harrisburg, PA", "distance": 79},
+      {"name": "Philadelphia, PA", "distance": 100},
+      {"name": "Washington, D.C.", "distance": 38}
+    ]
+  },
+  "Philadelphia, PA": {
+    "neighbors": [
+      {"name": "Allentown, PA", "distance": 63},
+      {"name": "Baltimore, MD", "distance": 100},
+      {"name": "Harrisburg, PA", "distance": 107},
+      {"name": "New York, NY", "distance": 94}
+    ]
+  },
+  "Harrisburg, PA": {
+    "neighbors": [
+      {"name": "Allentown, PA", "distance": 83},
+      {"name": "Baltimore, MD", "distance": 79},
+      {"name": "Philadelphia, PA", "distance": 107},
+      {"name": "Pittsburgh, PA", "distance": 203}
+    ]
+  },
+  "New York, NY": {
+    "neighbors": [
+      {"name": "Albany, NY", "distance": 158},
+      {"name": "Allentown, PA", "distance": 93},
+      {"name": "New Haven, CT", "distance": 81},
+      {"name": "Philadelphia, PA", "distance": 94}
+    ]
+  },
+  "Kansas City, MO": {
+    "neighbors": [
+      {"name": "Denver, CO", "distance": 603},
+      {"name": "Des Moines, IA", "distance": 194},
+      {"name": "Omaha, NE", "distance": 186},
+      {"name": "Springfield, MO", "distance": 166},
+      {"name": "St. Louis, MO", "distance": 248},
+      {"name": "Wichita, KS", "distance": 195}
+    ]
+  },
+  "Denver, CO": {
+    "neighbors": [
+      {"name": "Albuquerque, NM", "distance": 10000},
+      {"name": "Cheyenne, WY", "distance": 100},
+      {"name": "Kansas City, MO", "distance": 603},
+      {"name": "Las Vegas, NV", "distance": 749},
+      {"name": "Omaha, NE", "distance": 498},
+      {"name": "Wichita, KS", "distance": 520}
+    ]
+  },
+  "Phoenix, AZ": {
+    "neighbors": [
+      {"name": "Flagstaff, AZ", "distance": 144},
+      {"name": "Los Angeles, CA", "distance": 373},
+      {"name": "Tucson, AZ", "distance": 112}
+    ]
+  },
+  "Los Angeles, CA": {
+    "neighbors": [
+      {"name": "Flagstaff, AZ", "distance": 466},
+      {"name": "Las Vegas, NV", "distance": 270},
+      {"name": "Phoenix, AZ", "distance": 373},
+      {"name": "San Diego, CA", "distance": 120},
+      {"name": "San Francisco, CA", "distance": 383}
+    ]
+  },
+  "San Diego, CA": {
+    "neighbors": [
+      {"name": "Los Angeles, CA", "distance": 10000},
+      {"name": "Tucson, AZ", "distance": 10000}
+    ]
+  },
+  "Tucson, AZ": {
+    "neighbors": [
+      {"name": "Las Cruces, NM", "distance": 278},
+      {"name": "Phoenix, AZ", "distance": 112},
+      {"name": "San Diego, CA", "distance": 405}
+    ]
+  },
+  "Salt Lake City, UT": {
+    "neighbors": [
+      {"name": "Boise, ID", "distance": 340},
+      {"name": "Butte, MT", "distance": 416},
+      {"name": "Cheyenne, WY", "distance": 439},
+      {"name": "Las Vegas, NV", "distance": 421},
+      {"name": "Reno, NV", "distance": 518}
+    ]
+  },
+  "Las Vegas, NV": {
+    "neighbors": [
+      {"name": "Denver, CO", "distance": 749},
+      {"name": "Los Angeles, CA", "distance": 270},
+      {"name": "Salt Lake City, UT", "distance": 421}
+    ]
+  },
+  "Seattle, WA": {
+    "neighbors": [
+      {"name": "Boise, ID", "distance": 494},
+      {"name": "Butte, MT", "distance": 593},
+      {"name": "Portland, OR", "distance": 174}
+    ]
+  },
+  "Portland, OR": {
+    "neighbors": [
+      {"name": "Boise, ID", "distance": 431},
+      {"name": "Salem, OR", "distance": 54},
+      {"name": "Seattle, WA", "distance": 174}
+    ]
+  },
+  "Salem, OR": {
+    "neighbors": [
+      {"name": "Portland, OR", "distance": 54},
+      {"name": "San Francisco, CA", "distance": 591}
+    ]
+  },
+  "San Francisco, CA": {
+    "neighbors": [
+      {"name": "Los Angeles, CA", "distance": 383},
+      {"name": "Sacramento, CA", "distance": 88},
+      {"name": "Salem, OR", "distance": 591}
+    ]
+  },
+  "Sacramento, CA": {
+      "neighbors": [
+        {"name": "Reno, NV", "distance": 132},
+        {"name": "San Francisco, CA", "distance": 88}
+      ]
+  },  
+  "Reno, NV": {
+      "neighbors": [
+        {"name": "Sacramento, CA", "distance": 132},
+        {"name": "Salt Lake City, UT", "distance": 518}
+      ]
+  },
+  "Boise, ID": {
+    "neighbors": [
+      {"name": "Salem, OR", "distance": 431},
+      {"name": "Salt Lake City, UT", "distance": 340},
+      {"name": "Seattle, WA", "distance": 494}
+    ]
+  },
+  "Flagstaff, AZ": {
+    "neighbors": [
+      {"name": "Albuquerque, NM", "distance": 322},
+      {"name": "Los Angeles, CA", "distance": 466},
+      {"name": "Phoenix, AZ", "distance": 144}
+    ]
+  },
+  "Albuquerque, NM": {
+    "neighbors": [
+      {"name": "Denver, CO", "distance": 449},
+      {"name": "Flagstaff, AZ", "distance": 322},
+      {"name": "Las Cruces, NM", "distance": 223},
+      {"name": "Oklahoma City, OK", "distance": 543}
+    ]
+  },
+  "Las Cruces, NM": {
+    "neighbors": [
+      {"name": "Albuquerque, NM", "distance": 223},
+      {"name": "Dallas, TX", "distance": 680},
+      {"name": "Tucson, AZ", "distance": 278},
+      {"name": "San Antonio, TX", "distance": 596}
+    ]
+  },
+  "Oklahoma City, OK": {
+    "neighbors": [
+      {"name": "Albuquerque, NM", "distance": 543},
+      {"name": "Dallas, TX", "distance": 207},
+      {"name": "Kansas City, MO", "distance": 353},
+      {"name": "Little Rock, AR", "distance": 339},
+      {"name": "Springfield, MO", "distance": 286},
+      {"name": "Wichita, KS", "distance": 162}
+    ]
+  },
+  "San Antonio, TX": {
+    "neighbors": [
+      {"name": "Austin, TX", "distance": 80},
+      {"name": "Houston, TX", "distance": 197},
+      {"name": "Las Cruces, NM", "distance": 596}
+    ]
+  },
+  "Houston, TX": {
+    "neighbors": [
+      {"name": "Lafayette, LA", "distance": 217},
+      {"name": "San Antonio, TX", "distance": 197}
+    ]
+  },
+  "Lafayette, LA": {
+    "neighbors": [
+      {"name": "Houston, TX", "distance": 217},
+      {"name": "New Orleans, LA", "distance": 135},
+      {"name": "Shreveport, LA", "distance": 212}
+    ]
+  },
+  "Little Rock, AR": {
+    "neighbors": [
+      {"name": "Dallas, TX", "distance": 319},
+      {"name": "Memphis, TN", "distance": 137},
+      {"name": "Oklahoma City, OK", "distance": 339},
+      {"name": "Shreveport, LA", "distance": 215},
+      {"name": "Springfield, MO", "distance": 216}
+    ]
+  },
+  "Austin, TX": {
+    "neighbors": [
+      {"name": "Dallas, TX", "distance": 195},
+      {"name": "San Antonio, TX", "distance": 80}
+    ]
+  },
+  "Dallas, TX": {
+    "neighbors": [
+      {"name": "Austin, TX", "distance": 195},
+      {"name": "Las Cruces, NM", "distance": 596},
+      {"name": "Little Rock, AR", "distance": 319},
+      {"name": "Oklahoma City, OK", "distance": 207},
+      {"name": "Shreveport, LA", "distance": 188}
+    ]
+  },
+  "Shreveport, LA": {
+    "neighbors": [
+      {"name": "Dallas, TX", "distance": 188},
+      {"name": "Jackson, MS", "distance": 218},
+      {"name": "Lafayette, LA", "distance": 212},
+      {"name": "Little Rock, AR", "distance": 215}
+    ]
+  },
+  "Springfield, MO": {
+    "neighbors": [
+      {"name": "Kansas City, MO", "distance": 166},
+      {"name": "Little Rock, AR", "distance": 216},
+      {"name": "Oklahoma City, OK", "distance": 286},
+      {"name": "St. Louis, MO", "distance": 216}
+    ]
+  },
+  "Butte, MT": {
+    "neighbors": [
+      {"name": "Billings, MT", "distance": 166},
+      {"name": "Salt Lake City, UT", "distance": 416},
+      {"name": "Seattle, WA", "distance": 593}
+    ]
+  },
+  "Billings, MT": {
+    "neighbors": [
+      {"name": "Buffalo, WY", "distance": 165},
+      {"name": "Butte, MT", "distance": 166},
+      {"name": "Fargo, ND", "distance": 609}
+    ]
+  },
+  "Buffalo, WY": {
+    "neighbors": [
+      {"name": "Billings, MT", "distance": 165},
+      {"name": "Cheyenne, WY", "distance": 290},
+      {"name": "Sioux Falls, SD", "distance": 553}
+    ]
+  },
+  "Cheyenne, WY": {
+    "neighbors": [
+      {"name": "Buffalo, WY", "distance": 290},
+      {"name": "Denver, CO", "distance": 100},
+      {"name": "Salt Lake City, UT", "distance": 439}
+    ]
+  },
+  "Wichita, KS": {
+    "neighbors": [
+      {"name": "Denver, CO", "distance": 520},
+      {"name": "Kansas City, MO", "distance": 195},
+      {"name": "Oklahoma City, OK", "distance": 162}
+    ]
+  },
+  "Omaha, NE": {
+    "neighbors": [
+      {"name": "Denver, CO", "distance": 498},
+      {"name": "Des Moines, IA", "distance": 134},
+      {"name": "Kansas City, MO", "distance": 186},
+      {"name": "Sioux Falls, SD", "distance": 182}
+    ]
+  },
+  "Des Moines, IA": {
+    "neighbors": [
+      {"name": "Kansas City, MO", "distance": 194},
+      {"name": "Omaha, NE", "distance": 134},
+      {"name": "Albert Lea, MN", "distance": 149}
+    ]
+  },
+  "Albert Lea, MN": {
+    "neighbors": [
+      {"name": "Des Moines, IA", "distance": 149},
+      {"name": "Madison, WI", "distance": 327},
+      {"name": "Minneapolis, MN", "distance": 164},
+      {"name": "Sioux Falls, SD", "distance": 158}
+    ]
+  },
+  "Madison, WI": {
+    "neighbors": [
+      {"name": "Albert Lea, MN", "distance": 327},
+      {"name": "Milwaukee, WI", "distance": 80},
+      {"name": "Minneapolis, MN", "distance": 269}
+    ]
+  },
+  "Milwaukee, WI": {
+    "neighbors": [
+      {"name": "Chicago, IL", "distance": 91},
+      {"name": "Madison, WI", "distance": 80}
+    ]
+  },
+  "Fargo, ND": {
+    "neighbors": [
+      {"name": "Billings, MT", "distance": 609},
+      {"name": "Minneapolis, MN", "distance": 235},
+      {"name": "Sioux Falls, SD", "distance": 243}
+    ]
+  },
+  "Minneapolis, MN": {
+    "neighbors": [
+      {"name": "Fargo, ND", "distance": 235},
+      {"name": "Madison, WI", "distance": 269},
+      {"name": "Albert Lea, MN", "distance": 164}
+    ]
+  },
+  "Sioux Falls, SD": {
+    "neighbors": [
+      {"name": "Albert Lea, MN", "distance": 158},
+      {"name": "Buffalo, WY", "distance": 553},
+      {"name": "Fargo, ND", "distance": 243},
+      {"name": "Omaha, NE", "distance": 158}
+    ]
+  }
+}
